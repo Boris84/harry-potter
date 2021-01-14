@@ -24,7 +24,7 @@ h1 {
   font-size: 40px;
   position: relative;
   font-family: 'Helvetica', cursive;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 
 /* How to keep an elements position when resizing the browser with absolute. Set position:absolute then set everything else to: 0 */
@@ -91,7 +91,7 @@ ul li {
 footer {
   color: snow;
   display: grid;
-  margin-top: 50px;
+  margin-top: 20px;
   grid-template-columns: repeat(3, 1fr);
 }
 
