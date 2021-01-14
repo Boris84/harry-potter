@@ -36,7 +36,7 @@ h1 {
   left: -12.2em;
   right: 0;  
   bottom: 0;
-  top: 7px;
+  top: 9px;
 }
 
 #searchBar {
@@ -53,7 +53,6 @@ h1 {
 
 input:focus {
   outline: none;
-  background-color:;
 }
 
 #charactersList {
@@ -64,21 +63,21 @@ input:focus {
 }
 
 img {
-  border: ridge 5px snow;
+  border: ridge 5px purple;
   border-radius: 20px;
   resize: both;
 }
 
 
 ul {
-  padding: 1em 0em 1em 0em;
+/*  padding: 1em 0em 1em 0em;*/
 }
 
 
 ul li {
-  font-family: 'Ariel', cursive;
+  font-family: 'East Sea Dokdo', cursive;  
   text-align: center;
-  font-size: 15px;
+  font-size: 25px;
   list-style: none;
   padding-left: 3px;
   padding: 1px;

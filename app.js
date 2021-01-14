@@ -9,6 +9,7 @@ document.querySelector('input').addEventListener('keyup', (event) => {
     
  const filteredCharacters = hpCharacters.filter((character) => { 
     return character.name.toLowerCase().includes(searchString); 
+      
   });
       displayCharacters(filteredCharacters);
 });
@@ -29,6 +30,7 @@ xhr.onload = function() {
   if (this.status === 200) {
     hpCharacters = JSON.parse(this.responseText);
     displayCharacters(hpCharacters);
+     console.log(hpCharacters)
   }
 }
     xhr.send();
@@ -43,6 +45,8 @@ function displayCharacters(hpCharacters) {
 let output = '';
   
 hpCharacters.forEach((character) => { 
+    
+  if (character.dateOfBirth && character.house) {
       
     output += 
       '<ul>' +
@@ -52,6 +56,15 @@ hpCharacters.forEach((character) => {
         `<li>DOB: ${character.dateOfBirth}</li>` +
         `<li>House: ${character.house}</li>` +
       '</ul>';
+  } else {
+      
+      output += 
+      '<ul>' +
+        `<img src="${character.image}" width="180px" height="200px">` +
+        `<li>Name: ${character.name}</li>` +
+        `<li>Actor: ${character.actor}</li>` + 
+      '</ul>';
+    }
   });
     
   document.getElementById("charactersList").innerHTML = output;
