@@ -71,13 +71,7 @@ img {
 
 
 ul {
-/*
-  display: grid;
-  justify-items: center;
-*/
-/background: dimgray;*/
   padding: 1em 0em 1em 0em;
-
 }
 
 
@@ -97,8 +91,12 @@ ul li {
 }
 
 
+/* min-width (mobile first approach) - If the browser window is a specified px or larger */
+/* max-width (desktop first approach) - If the browser window is a specified px or smaller */
 
 
-@media(max-width: 320px) {
-    
-}
+
+
+
+
+
