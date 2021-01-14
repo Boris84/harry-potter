@@ -60,6 +60,7 @@ input:focus {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(186px, 1fr));
   grid-gap: 2em;
+  margin-bottom: 100px;
 }
 
 img {
@@ -88,6 +89,50 @@ ul li {
 #search-icon {
   border: none;
 }
+
+
+.copyright {
+  color: snow;
+  padding: 20px;
+  font-size: 20px;
+}
+
+footer {
+  color: snow;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 50px;
+/*  grid-auto-rows: 1fr 1fr;*/
+}
+
+
+footer .fa-instagram {
+  justify-self: end;
+}
+
+footer .fa-instagram:hover {
+  color: gold;
+  transition: color 0.1s ease-in-out;
+}
+
+footer .fa-github {
+  justify-self: center;
+}
+footer .fa-github:hover {
+  color: gold; 
+  transition: color 0.1s ease-in-out;
+}
+
+footer .fa-youtube {
+  justify-self: start;
+}
+footer .fa-youtube:hover {
+  color: gold;
+  transition: color 0.1s ease-in-out;
+}
+
+
+
 
 
 /* min-width (mobile first approach) - If the browser window is a specified px or larger */
