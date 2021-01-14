@@ -63,7 +63,7 @@ input:focus {
 }
 
 img {
-  border: ridge 5px purple;
+  border: ridge 5px gold;
   border-radius: 20px;
   resize: both;
 }
