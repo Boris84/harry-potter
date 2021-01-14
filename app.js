@@ -46,7 +46,7 @@ let output = '';
   
 hpCharacters.forEach((character) => { 
     
-  if (character.dateOfBirth && character.house) {
+  if (character.dateOfBirth) {
       
     output += 
       '<ul>' +
@@ -63,6 +63,7 @@ hpCharacters.forEach((character) => {
         `<img src="${character.image}" width="180px" height="200px">` +
         `<li>Name: ${character.name}</li>` +
         `<li>Actor: ${character.actor}</li>` + 
+        `<li>House: ${character.house}</li>` +
       '</ul>';
     }
   });
