@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #10141b;
+}
+
+.container {
+  padding: 40px;
+  max-width: 1500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.searchWrapper {
+  position: relative;
+}
+
+h1 {
+  color: snow;
+  font-size: 40px;
+  position: relative;
+  font-family: 'Helvetica', cursive;
+  margin-bottom: 50px;
+  /*background: dimgray;*/
+
+
+}
+
+/* How to keep an elements position when resizing the browser with absolute. Set position:absolute then set everything else to: 0 */
+#search {
+  position: absolute;
+  left: -12.2em;
+  right: 0;  
+  bottom: 0;
+  top: 7px;
+}
+
+#searchBar {
+  width: 240px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 35px;
+  letter-spacing: 1px;
+  border-radius: 20px;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+
+input:focus {
+  outline: none;
+  background-color:;
+}
+
+#charactersList {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(186px, 1fr));
+  grid-gap: 2em;
+}
+
+img {
+  border: ridge 5px snow;
+  border-radius: 20px;
+  resize: both;
+}
+
+
+ul {
+/*
+  display: grid;
+  justify-items: center;
+*/
+/background: dimgray;*/
+  padding: 1em 0em 1em 0em;
+
+}
+
+
+ul li {
+  font-family: 'Ariel', cursive;
+  text-align: center;
+  font-size: 15px;
+  list-style: none;
+  padding-left: 3px;
+  padding: 1px;
+  color: snow;
+  resize: both;
+}
+
+#search-icon {
+  border: none;
+}
+
+
+
+
+@media(max-width: 320px) {
+    
+}
