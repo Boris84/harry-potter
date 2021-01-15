@@ -10,6 +10,7 @@ body {
 
 .container {
   padding: 40px;
+  height: 100vh;
   max-width: 1500px;
   margin: 0 auto;
   text-align: center;
@@ -61,7 +62,7 @@ input:focus {
 }
 
 img {
-  border: ridge 5px gold;
+  border: ridge 5px snow;
   border-radius: 20px;
   resize: both;
 }
@@ -85,7 +86,7 @@ ul li {
 .copyright {
   color: snow;
   padding: 20px;
-  font-size: 20px;
+  font-size: 14px;
 }
 
 footer {
@@ -101,7 +102,7 @@ footer .fa-instagram {
 }
 
 footer .fa-instagram:hover {
-  color: gold;
+  color: red;
   transition: color 0.1s ease-in-out;
 }
 
@@ -109,7 +110,7 @@ footer .fa-github {
   justify-self: center;
 }
 footer .fa-github:hover {
-  color: gold; 
+  color: red; 
   transition: color 0.1s ease-in-out;
 }
 
@@ -117,7 +118,7 @@ footer .fa-youtube {
   justify-self: start;
 }
 footer .fa-youtube:hover {
-  color: gold;
+  color: red;
   transition: color 0.1s ease-in-out;
 }
 
